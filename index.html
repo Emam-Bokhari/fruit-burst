@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Burst</title>
+    <!-- Font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- Tailwind-CSS & DaisyUI CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Vanilla/Raw CSS link -->
+    <style>
+        .font-lato {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header class="border-2 border-red-500 max-w-screen-xl mx-auto px-8 md:px-10 lg:px-20 my-10">
+        <!-- Start Navbar -->
+        <nav class="navbar md:bg-[#F85559] rounded-full">
+            <!-- Navbar for large device -->
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal  px-1 text-white font-lato text-base font-normal md:text-lg">
+                    <li><a>Home</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>All Fruits</a></li>
+                </ul>
+            </div>
+            <!-- Navbar for small & medium device -->
+            <div class="navbar-start">
+                <!-- Logo -->
+                <div class="flex min-w-full justify-center items-center pl-4 md:pl-0">
+                    <img class="w-10 md:w-12 " src="./assets/logo.png" alt="">
+                    <a
+                        class="btn bg-transparent border-none hover:bg-transparent cursor-default normal-case text-[#121212] md:text-white font-lato font-bold text-xl md:text-3xl lg:text-4xl ">Fruit
+                        Burst</a>
+                </div>
+                <div class="dropdown min-w-full">
+                    <label tabindex="0"
+                        class="flex justify-end md:pr-20 btn btn-ghost md:hover:bg-transparent lg:hidden">
+                        <i class="fa-solid fa-bars text-base md:text-xl"></i>
+                    </label>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                    </ul>
+                </div>
+                <!-- Search bar -->
+            </div>
+            <div class="hidden lg:block navbar-end relative">
+                <input class="min-w-full outline-none rounded-full py-2 px-6 text-base  placeholder:text-sm"
+                    type="search" placeholder="Search here">
+                <i class="fa-solid fa-magnifying-glass cursor-text absolute top-3 right-6"></i>
+            </div>
+        </nav>
+    </header>
+    <!-- Start Main -->
+    <main>
+    </main>
+    <!-- Start Footer -->
+    <footer>
+
+    </footer>
+</body>
+
+</html>
