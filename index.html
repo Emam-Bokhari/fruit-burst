@@ -26,7 +26,7 @@
     <!-- Start Header -->
     <header class="border-2 border-red-500 max-w-screen-xl mx-auto px-8 md:px-10 lg:px-20 my-10">
         <!-- Start Navbar -->
-        <nav class="navbar md:bg-[#F85559] rounded-full">
+        <nav class="navbar md:bg-[#F85559] rounded-full  ">
             <!-- Navbar for large device -->
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal  px-1 text-white font-lato text-base font-normal md:text-lg">
@@ -37,7 +37,7 @@
                 </ul>
             </div>
             <!-- Navbar for small & medium device -->
-            <div class="navbar-start">
+            <div class="navbar-start ">
                 <!-- Logo -->
                 <div class="flex min-w-full justify-center items-center pl-4 md:pl-0">
                     <img class="w-10 md:w-12 " src="./assets/logo.png" alt="">
@@ -66,9 +66,148 @@
                 <i class="fa-solid fa-magnifying-glass cursor-text absolute top-3 right-6"></i>
             </div>
         </nav>
+        <!-- Start Banner Section -->
+        <section class="my-10 relative">
+            <div class="carousel w-full">
+                <!-- Slider 1 -->
+                <div id="slide1" class="carousel-item relative w-full">
+                    <div class="hero" style="background-image: url(./assets/banner1.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-center text-neutral-content">
+                            <div class="max-w-md md:py-20">
+                                <h1 class="mb-5 text-3xl md:text-4xl lg:text-5xl font-bold font-lato">Exotic tastes at
+                                    your doorstep</h1>
+                                <p class="mb-5 font-lato font-normal text-base md:text-lg">We supply highly quality
+                                    organic products</p>
+                                <button class="btn bg-[#F85559] 
+                            hover:bg-[#E84448] border-none capitalize text-white font-lato font-bold md:text-lg">Shop
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- Slider 2 -->
+                <div id="slide2" class="carousel-item relative w-full">
+                    <div class="hero" style="background-image: url(./assets/banner2.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-center text-neutral-content">
+                            <div class="max-w-md md:py-20">
+                                <h1 class="mb-5 text-5xl font-bold">Distinguished tastes at your step</h1>
+                                <p class="mb-5">We deliver exceptionally quality natural merchandise</p>
+                                <button
+                                    class="btn bg-[#F85559] hover:bg-[#E84448] border-none capitalize text-white font-lato font-bold md:text-lg">Shop
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- Slider 3 -->
+                <div id="slide3" class="carousel-item relative w-full">
+                    <div class="hero" style="background-image: url(./assets/banner3.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-center text-neutral-content">
+                            <div class="max-w-md md:py-20">
+                                <h1 class="mb-5 text-5xl font-bold">Special tastes at the doorstep</h1>
+                                <p class="mb-5">We deliver noticeably first-rate natural products</p>
+                                <button
+                                    class="btn bg-[#F85559] hover:bg-[#E84448] border-none capitalize text-white font-lato font-bold md:text-lg">Shop
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn  btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- Slider 4 -->
+                <div id="slide4" class="carousel-item relative w-full">
+                    <div class="hero" style="background-image: url(./assets/banner4.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-center text-neutral-content">
+                            <div class="max-w-md md:py-20">
+                                <h1 class="mb-5 text-5xl font-bold">Remarkable tastes at your doorstep</h1>
+                                <p class="mb-5">We deliver exceedingly excellent natural products</p>
+                                <button
+                                    class="btn bg-[#F85559] hover:bg-[#E84448] border-none capitalize text-white font-lato font-bold md:text-lg">Shop
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fruit Card -->
+            <div class="hidden lg:block">
+                <div class="absolute left-[71px] top-80 max-w-screen-lg grid grid-cols-5 mx-auto border-2 bg-white shadow-md border-green-500 ">
+                    <!-- Fruit 01 -->
+                    <div class="card ">
+                        <figure class="px-5 pt-5">
+                          <img src="./assets/fruit1.png" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title text-[#121212CC] font-lato text-base text-normal">Strawberry</h2>
+                        </div>
+                      </div>
+                    <!-- Fruit 02 -->
+                    <div class="card">
+                        <figure class="px-5 pt-5">
+                          <img src="./assets/fruit2.png" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title text-[#121212CC] font-lato text-base text-normal">Orangey</h2>
+                        </div>
+                      </div>
+                    <!-- Fruit 03 -->
+                    <div class="card">
+                        <figure class="px-5 pt-5">
+                          <img src="./assets/fruit3.png" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title text-[#121212CC] font-lato text-base text-normal">Mango</h2>
+                        </div>
+                      </div>
+                    <!-- Fruit 04 -->
+                    <div class="card">
+                        <figure class="px-5 pt-5">
+                          <img src="./assets/fruit4.png" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title text-[#121212CC] font-lato text-base text-normal">Strawberry</h2>
+                        </div>
+                      </div>
+                    <!-- Fruit 05 -->
+                    <div class="card">
+                        <figure class="px-5 pt-5">
+                          <img src="./assets/fruit5.png" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title text-[#121212CC] font-lato text-base text-normal">pomegranate</h2>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+        </section>
     </header>
     <!-- Start Main -->
     <main>
+    <!-- Start Deal of the day Section -->
+        <section class="border-2 border-red-500 max-w-screen-xl mx-auto px-8 md:px-10 lg:px-20 mt-40 mb-20">
+            
+        </section>
+       
     </main>
     <!-- Start Footer -->
     <footer>
